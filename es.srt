@@ -1,0 +1,188 @@
+﻿1
+00:00:02,500 --> 00:00:05,500
+Nebulas NOVA
+El futuro de la colaboración está llegando
+
+2
+00:00:06,750 --> 00:00:09,500
+¡Hola a todos! Soy Chenmin Wang,
+
+3
+00:00:10,000 --> 00:00:12,200
+ingeniero a cargo de la investigación y
+el desarrollo en Nebulas.
+
+4
+00:00:12,300 --> 00:00:17,000
+Hoy les presentaré el sistema de presentación de propuestas
+de Nebulas NOVA, y el proceso de actualización
+de nuestra red.
+
+5
+00:00:17,100 --> 00:00:23,500
+La actualización de Nebulas NOVA depende del
+Entorno de Ejecución del Blockchain de Nebulas (NBRE).
+
+6
+00:00:23,600 --> 00:00:25,900
+En otras palabras,
+
+7
+00:00:26,000 --> 00:00:28,100
+el Entorno de Ejecución del Blockchain de Nebulas (NBRE)
+
+8
+00:00:28,200 --> 00:00:34,000
+provee los cimientos técnicos para la
+actualización de Nebulas NOVA.
+
+9
+00:00:34,100 --> 00:00:39,800
+Previamente, Samuel nos presentó el Entorno de
+Ejecución del Blockchain de Nebulas (NBRE).
+
+10
+00:00:39,900 --> 00:00:44,000
+Si quieres aprender más sobre el Entorno de
+Ejecución del Blockchain de Nebulas (NBRE),
+
+11
+00:00:44,100 --> 00:00:47,300
+por favor, consulta el video introductorio anterior.
+
+12
+00:00:47,400 --> 00:00:54,500
+Las propuestas de actualización para Nebulas NOVA
+se pueden dividir en múltiples etapas.
+
+13
+00:00:54,600 --> 00:00:59,250
+Veamos, por ejemplo, la
+“Propuesta Arthur”.
+
+14
+00:00:59,350 --> 00:01:05,250
+Primero, el creador de la propuesta brinda
+una descripción de la actualización deseada,
+
+15
+00:01:05,350 --> 00:01:12,250
+que incluye las modificaciones que desea introducir
+dentro de los parámetros y las funciones
+Developer Incentive Protocol y Nebulas Rank.
+
+16
+00:01:12,350 --> 00:01:19,500
+Además, se incluye documentación técnica
+y la implementación del código fuente.
+
+17
+00:01:19,600 --> 00:01:25,900
+En ese punto, la comunidad vota por la propuesta
+utilizando el token autónomo de Nebulas (NAT).
+
+18
+00:01:26,000 --> 00:01:32,250
+Una vez que la votación se completa, y si la propuesta
+recibe un mínimo de 51% de aprobación,
+ésta ingresa a la siguiente etapa.
+
+19
+00:01:32,350 --> 00:01:34,800
+Una vez que la propuesta es aprobada,
+
+20
+00:01:34,900 --> 00:01:39,250
+la modificación propuesta al código fuente
+se encapsula en
+
+21
+00:01:39,350 --> 00:01:41,700
+el campo de datos de la transacción,
+
+22
+00:01:41,800 --> 00:01:45,000
+que es firmada por el comité
+
+23
+00:01:45,100 --> 00:01:49,900
+y distribuida en la <i>mainnet.</i>
+
+24
+00:01:52,500 --> 00:01:57,000
+Luego de analizar la transacción
+de la actualización propuesta,
+
+25
+00:01:57,100 --> 00:02:01,000
+Nebulas NOVA <i>parseará</i> de forma autónoma
+el campo de datos de la transacción
+
+26
+00:02:01,100 --> 00:02:04,900
+y compilará el código fuente
+de la propuesta
+
+27
+00:02:05,000 --> 00:02:10,000
+en la <i>Representación del Protocolo Nebulas</i>
+utilizando el motor <i>Nebulas Engine.</i>
+
+28
+00:02:10,100 --> 00:02:17,100
+La Representación del Protocolo Nebulas
+quedará guardada en persistencia en la
+base de datos de Nebulas NOVA.
+
+29
+00:02:17,200 --> 00:02:24,200
+Finalmente, cuando la altura de bloque alcance
+el valor predeterminado en la
+transacción de la propuesta,
+
+30
+00:02:24,300 --> 00:02:31,750
+el motor de Nebulas NOVA cargará la propuesta
+para la Representación del Protocolo de Nebulas
+en la base de datos
+
+31
+00:02:31,850 --> 00:02:35,000
+e inmediatamente la ejecutará.
+
+32
+00:02:35,600 --> 00:02:37,250
+En este punto,
+
+33
+00:02:37,350 --> 00:02:42,250
+todas las peticiones para el
+Developer Incentive Protocol y Nebulas Rank
+
+34
+00:02:42,350 --> 00:02:46,750
+devolverán los resultados de la nueva propuesta
+y su código fuente revisado.
+
+35
+00:02:46,850 --> 00:02:52,250
+Así funciona el proceso completo de actualización
+de Nebulas NOVA por medio de una propuesta.
+
+36
+00:02:52,350 --> 00:02:55,750
+Si tienes una consulta o sugerencia,
+
+37
+00:02:55,850 --> 00:03:00,000
+por favor, visita el foro de la comunidad Nebulas
+y publica tus comentarios allí. ¡Gracias!
+
+38
+00:03:00,100 --> 00:03:06,000
+<i>Metanet autónoma</i>
+
+39
+00:03:06,100 --> 00:03:11,000
+<i>nebulas.io</i>
+
